@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:bom": "cyclonedx-npm --output-file=bom.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@aws-amplify/ui-react": "^3.4.1",
+    "@cyclonedx/cyclonedx-npm": "^1.0.0-beta.4",
     "react": "^18.2.0"
   }
 }
